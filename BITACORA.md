@@ -55,4 +55,12 @@ Los colores son verde oscuro para fondos, crema para texto y dorado para bordes 
 - **Imágenes iniciales vacías:** el bloque que agregaba campos comunes sobrescribía la imagen de cada personaje. Se colocaron primero los valores predeterminados y después "...personaje", para conservar las URLs.
 - **Colores anteriores:** una versión anterior del CSS volvió a guardarse sobre el archivo actualizado y se reaplicó la paleta de colores. Se tuvo que sobrescribir.
 
+- Problema con el while en la búsqueda
+El documento pide repetir la búsqueda mientras no existan
+coincidencias. Si ningún personaje coincide y los datos no cambian,
+el ciclo podría repetirse y esto podria bloquear la página.
+Por eso utilicé filter(): para que busque cada vez que cambia el texto y si no encuentra coincidencias muestre "Sin resultados".
+Una alternativa sería recorrer el arreglo con
+un índice y detenerse al llegar al final, aunque no haya resultados.
+
 Le pedi ayudita a chat para ver que ondiux con eso pq m estrese pipipi, pero se resolvió. 
