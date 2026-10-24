@@ -1,0 +1,56 @@
+[
+  {
+    "id": "deadlock-mina",
+    "nombre": "Mina",
+    "imagen": "https://cdn.deadlock.wiki/Mina_card.png",
+    "rol": "Harasser, Nimble, Vexing.",
+    "descripcion": "Trust me. The longer this goes on, the worse it's gonna get for you!.",
+    "origen": "",
+    "fechaCreacion": "2026-10-24T02:26:43Z"
+  },
+  {
+    "id": "deadlock-celeste",
+    "nombre": "Celeste",
+    "imagen": "https://cdn.deadlock.wiki/Celeste_card.png",
+    "rol": "Performer, Disruptive, Dazzling.",
+    "descripcion": "Let's contribute to the chaos!",
+    "origen": "",
+    "fechaCreacion": "2026-10-24T02:26:43Z"
+  },
+  {
+    "id": "deadlock-doctora-hallow",
+    "nombre": "Enfermera Hallow",
+    "imagen": "https://cdn.deadlock.wiki/Nurse_Harrow_card.png",
+    "rol": "Strict, Terrifying, Savior",
+    "descripcion": "There will be ecstasy, there will be agony, and then you will be as you were.",
+    "origen": "",
+    "fechaCreacion": "2026-10-24T02:26:43Z"
+  },
+  {
+    "id": "deadlock-solomon",
+    "nombre": "Solomon",
+    "imagen": "https://cdn.deadlock.wiki/Solomon_card.png",
+    "rol": "Strategist, Focused, Checkmate",
+    "descripcion": "I'll come at the problem from all kinds of angles.",
+    "origen": "",
+    "fechaCreacion": "2026-10-24T02:26:43Z"
+  },
+  {
+    "id": "deadlock-vindicta",
+    "nombre": "Vindicta",
+    "imagen": "https://cdn.deadlock.wiki/Vindicta_card.png",
+    "rol": "Sniper, Soaring, One Shot Kill",
+    "descripcion": "If they don't have an Achilles' heel, I'll make one.",
+    "origen": "",
+    "fechaCreacion": "2026-10-24T02:26:43Z"
+  },
+  {
+    "id": "deadlock-seven",
+    "nombre": "Seven",
+    "imagen": "https://cdn.deadlock.wiki/Seven_card.png",
+    "rol": "High Voltage, Merciless, Area Denial",
+    "descripcion": "Greatness can be hindered, but it can never be stopped.",
+    "origen": "",
+    "fechaCreacion": "2026-10-24T02:26:43Z"
+  }
+]

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mi colección de DEADLOCK</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/deadlockP.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="titulo-juego">
+      <span class="titulo-coleccion">Mi colección de</span>
+      <img class="logo-deadlock" src="./img/deadlock-logo.svg" alt="DEADLOCK" width="512" height="84">
+    </h1>
+    <p>Guarda y administra tus personajes favoritos.</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="titulo-coleccion">
+      <h2 id="titulo-coleccion">Mis personajes</h2>
+
+      <label for="busqueda">Buscar por nombre o rol</label>
+      <input
+        type="search"
+        id="busqueda"
+        placeholder="Escribe para buscar..."
+      >
+
+      <button type="button" id="btn-agregar">
+        Agregar personaje
+      </button>
+
+      <p id="contador" aria-live="polite">0 personajes</p>
+      <button type="button" id="btn-limpiar" hidden>Limpiar búsqueda</button>
+
+      <div id="lista-personajes" class="cuadricula"></div>
+
+      <p id="estado-vacio">
+        Tu colección está vacía. ¡Agrega tu primer personaje!
+      </p>
+    </section>
+
+    <section id="seccion-formulario" hidden>
+      <h2 id="titulo-formulario">Agregar personaje</h2>
+
+      <form id="formulario-personaje" novalidate>
+        <label for="nombre">Nombre (obligatorio)</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="rol">Rol (obligatorio)</label>
+        <input
+          type="text"
+          id="rol"
+          name="rol"
+          placeholder="Cómo describirías su función en el equipo"
+          required
+        >
+
+        <label for="origen">Origen</label>
+        <input type="text" id="origen" name="origen">
+
+        <label for="imagen">Dirección de la imagen</label>
+        <input
+          type="url"
+          id="imagen"
+          name="imagen"
+          placeholder="https://ejemplo.com/personaje.jpg"
+        >
+
+        <label for="descripcion">Descripción</label>
+        <textarea
+          id="descripcion"
+          name="descripcion"
+          rows="4"
+        ></textarea>
+
+        <button type="submit">Guardar personaje</button>
+        <button type="button" id="btn-cancelar">Cancelar</button>
+      </form>
+    </section>
+
+    <section id="seccion-detalle" hidden>
+      <h2>Detalle del personaje</h2>
+      <div id="contenido-detalle"></div>
+
+      <button type="button" id="btn-volver">
+        Volver a la colección
+      </button>
+    </section>
+
+    <p id="mensaje" role="status"></p>
+  </main>
+
+  <footer>
+    <p>Proyecto · Colección personal de personajes</p>
+  </footer>
+</body>
+</html>
