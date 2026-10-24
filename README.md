@@ -2,8 +2,8 @@
 
 Ana Sofía García Olivares  
 Desarrollo de Aplicaciones Web  
-Repositorio:
-Página en GitHub Pages:
+Repositorio: https://github.com/baereu/Parcial2DEADLOCK
+Página en GitHub Pages: https://baereu.github.io/Parcial2DEADLOCK/
 
 ## ¿De qué trata?
 
