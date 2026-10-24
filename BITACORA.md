@@ -21,6 +21,7 @@ Lo malo es que se vuelve a escribir el arreglo en cada cambio. Guardar un person
 La búsqueda escucha el evento "input", actualiza las fichas mientras la persona escribe o pega texto. Se filtra por nombre o rol y se informa cuántas coincidencias existen.
 Se convierte el texto a minúsculas y elimina las marcas de acento. Asi el usuario puede encontrar a Seven escribiendo, por ejemplo, "SÉVEN".
 Poner Enter reduciría la frecuencia de las búsquedas, pero agregaría un paso a la interacción. No se implementó eso porque la colección es pequeña.
+Si tenemos 10 personajes, buscar cada vez que cambia el texto sería rápido. Si tuviéramos muchos mas personajes, seria mejor medir el rendimiento y considerar una pequeña espera después de escribir o mostrar los resultados por páginas.
 
 # 4. ¿Qué ocurre si localStorage contiene JSON inválido?
 
