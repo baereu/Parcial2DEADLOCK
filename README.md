@@ -40,6 +40,13 @@ Cada navegador guarda su propia colección. Asi que los cambios no se comparten 
 - personajes-ejemplo.json: datos de seis personajes para la entrega, la página no lee este archivo.
 - BITACORA.md: explicación de las decisiones del proyecto.
 
+## Sobre los datos guardados
+
+Los personajes iniciales del código se cargan únicamente cuando el navegador no tiene una colección guardada.
+Los cambios se realizan desde el botón Editar de cada personaje.
+
+Cambiar los colores del CSS no modifica la colección guardada :3
+
 ## Créditos
 
 DEADLOCK y sus personajes pertenecen a Valve. Las imágenes se enlazan desde [Deadlock Wiki](https://deadlock.wiki/) y el logo proviene de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Deadlock_logo.svg).
